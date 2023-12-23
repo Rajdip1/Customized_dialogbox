@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/checkbox" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Congratulations for showing today!" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_margin="10dp"
+        android:text="How is the Android app dev journey going?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#DD1E1E"
+            android:textColor="@color/white"
+            android:text=" Send Feedback" />
+
+        <Button
+            android:id="@+id/btnGood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#059142"
+            android:textColor="@color/white"
+            android:text="Too Good" />
+
+    </LinearLayout>
+
+</LinearLayout>
